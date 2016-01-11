@@ -1,0 +1,40 @@
+<html ng-app="chorizApp">
+    <head>
+    	<title></title>
+    	<meta charset="utf-8">
+    	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="css/style.css"></link>
+    </head>
+    <body ng-controller="events-controller as events">
+    	<div class="container">
+	    	<h1 class="header-title jumbotron">CARNAVAL DE UBRIQUE</h1>
+	    	<div class="row publi">
+	    		<img class="img-responsive" src="http://www.doctor-phone.es/img/logo.png">
+	    	</div>
+	    	<div class="row">
+			    <fechas></fechas>
+			    <agrupaciones></agrupaciones>
+			    <eventos></eventos>
+			</div> <!-- row -->
+		    <h2>Lugares</h2>
+		    <div class="row">
+		    	<div class="col-xs-12">
+			    	<div id="map"></div>
+			    </div> <!-- col-xs-4 -->
+		    </div>
+		    <div class="panel-footer">
+		    	Footer
+		    </div>
+    	</div> <!-- .container -->
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    	<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    	<script src="js/angular.min.js"></script>
+    	<script type="text/javascript" src="js/firebase.js"></script>
+    	<script src="js/app.js"></script>
+    	<script async defer
+             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfr-U34sxOCt5uvZ51YdGrBcU1C2Va3KE
+&callback=initMap">
+        </script>
+    </body>
+</html>

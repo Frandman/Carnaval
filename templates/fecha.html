@@ -1,0 +1,11 @@
+
+<div class="col-sm-12 col-md-4 ">
+    <h2>Fechas</h2>
+	<ul class="list-group" ng-repeat = "fecha in fechas">
+		<li class="list-group-item fechas">
+			<div><strong>{{fecha.name}}</strong></div>
+			<div>Lugar: {{fecha.lugar}}</div>
+			<div>Fecha: {{fecha.fecha.getDate()+' - '+fecha.fecha.getMonth()}}</div>
+		</li>
+	</ul>
+</div> <!-- col-xs-4 -->
