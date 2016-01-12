@@ -7,7 +7,7 @@
     	<link rel="stylesheet" href="css/style.css"></link>
     </head>
     <body ng-controller="events-controller as events">
-    	<div class="container">
+    	<div class="container-fluid">
 	    	<h1 class="header-title jumbotron">CARNAVAL DE UBRIQUE</h1>
 	    	<div class="row publi">
 	    		<img class="img-responsive" src="http://www.doctor-phone.es/img/logo.png">
@@ -17,16 +17,19 @@
 			    <agrupaciones></agrupaciones>
 			    <eventos></eventos>
 			</div> <!-- row -->
-		    <h2>Lugares</h2>
-		    <div class="row">
-		    	<div class="col-xs-12">
-			    	<div id="map"></div>
-			    </div> <!-- col-xs-4 -->
-		    </div>
-		    <div class="panel-footer">
-		    	Footer
-		    </div>
-    	</div> <!-- .container -->
+            <div class="row lugares">
+		       <h2>Lugares</h2>
+
+    		    <div class="row">
+    		    	<div class="col-xs-10 col-xs-offset-1">
+    			    	<div id="map"></div>
+    			    </div> <!-- col-xs-4 -->
+    		    </div> <!-- row -->
+            </div> <!-- row lugares -->
+            <div class="panel-footer">
+                 Footer
+            </div> <!--panel-footer -->
+    	</div> <!-- .container-fluid -->
     	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     	<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     	<script src="js/angular.min.js"></script>

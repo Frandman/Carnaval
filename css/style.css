@@ -2,15 +2,22 @@
 	text-align: center;
 }
 .fechas, .agrupaciones, .eventos {
-	background-color: #9EC8EE;
+	background-color: white;
+	border: 2px solid #9EC8EE;
+}
+
+.agrupaciones {
+	border: 2px solid #FFEED0;
 }
 .jumbotron {
-	background-color: #FFEED0;
+	background-color: white;
+	border: 2px solid #9EC8EE;
 }
 
 #map {
 	width: 100%;
-	height: 400px;
+	height: 50%;
+	padding-bottom: 10%;
 }
 
 .img-responsive {
@@ -21,6 +28,16 @@
 .panel-footer {
 	text-align: center;
 	margin: 2em 0 2em 0;
+	border: 2px solid #FFEED0;
+	background-color: white;
+}
+
+.lugares {
+	width: 99%;
+	text-align: center;
+	background-color: white;
+	border: 2px solid #9EC8EE;
+	margin: 0 auto;
 }
 
 h1, h2 {
