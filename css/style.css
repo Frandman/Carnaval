@@ -45,8 +45,20 @@ h1, h2 {
 }
 
 @media screen and (max-width: 768px){
-	.fechas, .agrupaciones, .eventos {
+	.fechas, .agrupaciones, .eventos, h2 {
 		text-align: center;
 	}
+
+	h2 {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 700px) {
+	.fechas, .agrupaciones, .eventos {
+		text-align: center;
+		font-size: 25px;
+	}
+
 }
 
