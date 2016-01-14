@@ -8,7 +8,7 @@
     	<link rel="stylesheet" href="css/style.css"></link>
     </head>
     <body ng-controller="events-controller as events">
-        <div class="navbar navbar-default">
+        <div class="navbar navbar-default" ng-class="{'navbar-expand' :collapsed }">
             <li class="nav-item" ng-click="toggleNav('home')">
                 <a class="nav-link">
                     <span>HOME</span>
@@ -45,7 +45,7 @@
                 <img class="img-responsive" src="http://www.doctor-phone.es/img/logo.png">
             </div>
 	    	<h1 class="header-title jumbotron">CARNAVAL DE UBRIQUE</h1>
-            <div class="ham row">
+            <div class="ham row" ng-click="collapse()">
                     <div class="ham-line"></div>
                     <div class="ham-line"></div>
                     <div class="ham-line"></div>

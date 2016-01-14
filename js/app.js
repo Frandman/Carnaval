@@ -11,10 +11,16 @@ var app = angular.module('chorizApp',[]);
 
 app.controller('events-controller',['$http', '$scope', function($http, $scope) {
     $scope.active="home";
+    $scope.collapsed = false;
     $scope.toggleNav = function (name){
         $scope.active = name;
         console.log(name);
   };
+
+  $scope.collapse = function(){
+    $scope.collapsed = !$scope.collapsed;
+    console.log($scope.collapsed);
+  }
 
 	$http({
         method: 'GET',

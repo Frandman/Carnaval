@@ -143,6 +143,10 @@ h1, h2 {
 		left: -100px;
 	}
 
+	.navbar-expand {
+		left: 0;
+	}
+
 	.content {
 	    margin-left: 0;
     }
