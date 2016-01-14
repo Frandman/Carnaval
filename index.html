@@ -9,25 +9,31 @@
     </head>
     <body ng-controller="events-controller as events">
         <div class="navbar navbar-default">
-            <li class="nav-item">
+            <li class="nav-item" ng-click="toggleNav('home')">
+                <a class="nav-link">
+                    <span>HOME</span>
+                    <span style="display:block;"class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li class="nav-item" ng-click="toggleNav('fechas')">
                 <a class="nav-link">
                     <span>FECHAS</span>
                     <span style="display:block;"class="glyphicon glyphicon-star" aria-hidden="true"></span>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" ng-click="toggleNav('agrupaciones')">
                 <a class="nav-link">
                     <span>AGRUPACIONES<span>
                     <span style="display:block;"class="glyphicon glyphicon-user" aria-hidden="true">
                 </a>
             </li>
-             <li class="nav-item">
+             <li class="nav-item" ng-click="toggleNav('eventos')">
                 <a class="nav-link">
                     <span>EVENTOS<span>
                     <span style="display:block;"class="glyphicon glyphicon-music" aria-hidden="true">
                 </a>
             </li>
-             <li class="nav-item">
+             <li class="nav-item" ng-click="toggleNav('mapa')">
                 <a class="nav-link">
                     <span>MAPA<span>
                     <span style="display:block;"class="glyphicon glyphicon-map-marker" aria-hidden="true">
@@ -40,14 +46,14 @@
             </div>
 	    	<h1 class="header-title jumbotron">CARNAVAL DE UBRIQUE</h1>
 	    	<div class="row">
-			    <fechas></fechas>
-			    <agrupaciones></agrupaciones>
-			    <eventos></eventos>
+			    <fechas ng-show="active=='fechas' || active == 'home' "></fechas>
+			    <agrupaciones ng-show="active=='agrupaciones' || active == 'home' "></agrupaciones>
+			    <eventos ng-show="active=='eventos' || active == 'home' "></eventos>
 			</div> <!-- row -->
-            <div class="row lugares">
+            <div class="row lugares" ng-show="active== 'mapa' || active == 'home' ">
 		       <h2>Lugares</h2>
             </div>
-    		<div class="row">
+    		<div class="row" ng-show="active== 'mapa' || active == 'home' ">
     		    <div class="col-xs-10 col-xs-offset-1">
     			    <div id="map"></div>
     		  </div> <!-- row -->

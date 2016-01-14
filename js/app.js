@@ -7,18 +7,15 @@ function initMap() {
   });
 }
 
-var link = "www.doctor-phone.es";
-
-var monthNames = [
-  "January", "February", "March",
-  "April", "May", "June", "July",
-  "August", "September", "October",
-  "November", "December"
-];
-
 var app = angular.module('chorizApp',[]);
 
 app.controller('events-controller',['$http', '$scope', function($http, $scope) {
+    $scope.active="home";
+    $scope.toggleNav = function (name){
+        $scope.active = name;
+        console.log(name);
+  };
+
 	$http({
         method: 'GET',
         url: 'https://intense-inferno-3375.firebaseio.com/agrupaciones.json'
