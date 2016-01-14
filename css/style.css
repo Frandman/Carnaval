@@ -1,17 +1,62 @@
+*, html, body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
 .header-title {
 	text-align: center;
 }
-.fechas, .agrupaciones, .eventos {
-	background-color: white;
-	border: 2px solid #9EC8EE;
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.container-wrapper {
+	max-width: 100%;
+	margin-left: 100px;
 }
 
-.agrupaciones {
-	border: 2px solid #FFEED0;
+.content {
+	margin-left: 100px;
 }
-.jumbotron {
-	background-color: white;
-	border: 2px solid #9EC8EE;
+.navbar {
+	background-color: #EC3524;
+	width: 100px;
+	height: 100%;
+	display: block;
+	position: fixed;
+	left: 0;
+	border: 1px solid white;
+}
+.nav-item {
+    vertical-align: center;
+    list-style-type: none;
+}
+.nav-item:hover{
+	background-color: #C82D1E;
+}
+
+.navbar:first-child {
+    padding-top: 100px;
+}
+.nav-link {
+	display: block;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: .8em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+}
+
+.container .jumbotron {
+	background-color: transparent;
+	border-bottom: 2px solid #EC3524;
+	border-radius: 0;
 }
 
 #map {
@@ -22,26 +67,24 @@
 
 .img-responsive {
 	margin: 0 auto;
-	max-width: 200px;
+	max-width: 300px;
+	margin-top: 50px;
 }
 
 .panel-footer {
 	text-align: center;
 	margin: 2em 0 2em 0;
-	border: 2px solid #FFEED0;
-	background-color: white;
 }
 
 .lugares {
 	width: 99%;
 	text-align: center;
-	background-color: white;
-	border: 2px solid #9EC8EE;
 	margin: 0 auto;
 }
 
 h1, h2 {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 @media screen and (max-width: 768px){
@@ -60,5 +103,14 @@ h1, h2 {
 		font-size: 25px;
 	}
 
+}
+@media (max-width: 700px) {
+	.navbar {
+		left: -100px;
+	}
+
+	.content {
+	    margin-left: 0;
+    }
 }
 
