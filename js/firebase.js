@@ -50,11 +50,11 @@ var agrupacionesRef = myDataRef.child('agrupaciones');
 	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
         },
     {
-	    name: 'Y comieron perdices',
-	    musica: 'Mi colega',
-	    letra: 'Supongo que mi colega también',
-	    anterior:'Las que tiran por arribita',
-	    imagen: 'https://pbs.twimg.com/profile_images/678651809754386433/biw_g7GB.jpg',
+	    name: 'Frecuencia Modulada',
+	    musica: 'Juan Flores',
+	    letra: 'Juan Flores',
+	    anterior:'Las arrempujás',
+	    imagen: 'http://2.bp.blogspot.com/-xCvN02eRxlA/Vk2TS0bFUZI/AAAAAAAAFAk/hcQzuuxyKaY/s400/la%2Bfoto.JPG',
 	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
         },
     {
@@ -63,6 +63,15 @@ var agrupacionesRef = myDataRef.child('agrupaciones');
 	    letra: 'Juan Pan',
 	    anterior:'Los frailes',
 	    imagen: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT7R9M4NO6zrfxJTFZGMXAhlOo-FLNrQuwp26FsMqRelIgPefzbzQ',
+	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+        },
+
+      {
+	    name: 'Del hotel también se sale',
+	    musica: 'David Menacho',
+	    letra: 'David Menacho',
+	    anterior:'no participó',
+	    imagen: 'http://www.ubrique.tv/wp-content/uploads/cuples-del-deporte-tambien-se-sa.jpg',
 	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
         },
     ];

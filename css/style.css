@@ -7,6 +7,10 @@
 	overflow: hidden;
 }
 
+.list-group-item {
+	border: 1px solid rgb(236, 36, 95);
+}
+
 .header-title {
 	text-align: center;
 }
