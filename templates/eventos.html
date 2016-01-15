@@ -1,11 +1,12 @@
 <div class="col-sm-12">
     <h2>Eventos</h2>
-	<ul class="list-group" ng-repeat = "evento in eventos">
-		<li class="list-group-item evento">
+	<div class="list-group col-sm-3 col-xs-12" ng-repeat = "evento in eventos">
+		<div class="list-group-item evento">
 			<div><strong>{{evento.grupo}}</strong></div>
 			<div>Lugar: {{evento.lugar}}</div>
-		</li>
-	</ul>
+            <div>Fecha: {{evento.fecha}}</div>
+		</div>
+	</div>
 	<!-- <form class="list-group-item" ng-submit="addEvento">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>

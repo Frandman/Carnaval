@@ -3,13 +3,14 @@
 	font-weight: 100;
 }
 
-.content {
+.content, .img-container {
 	overflow: hidden;
 }
 
 .header-title {
 	text-align: center;
 }
+
 
 .lugares {
 	border-bottom: 1px solid #EC3524;
@@ -183,6 +184,14 @@ h1, h2 {
     .img-responsive.img-fecha {
     	margin-top: 20px;
     	overflow: hidden;
+    }
+
+    #map {
+    	height: 200px;
+    }
+
+    .evento, .agrupacion-text {
+    	font-size: 12px;
     }
 }
 
