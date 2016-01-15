@@ -2,12 +2,12 @@
     <h2>Agrupaciones</h2>
 	<div class="col-sm-6 list-group-item agrupacion" ng-repeat = "agrupacion in agrupaciones">
 		<div clas="row">
-			<div class="col-xs-4">
-				<div><strong>{{agrupacion.name}}</strong></div>
+			<div class="col-md-4 col-xs-12 agrupacion-text">
+				<div style="font-size:15px;" class="agrupacion-name"><strong>{{agrupacion.name}}</strong></div>
 				<div>Música: {{agrupacion.musica}}</div>
 				<div>Letra: {{agrupacion.letra}}</div>
 			</div>
-			<div class="img-container col-xs-8">
+			<div class="img-container col-md-8 col-xs-12">
 			    <img class="img-responsive img-agrupacion" ng-src="{{agrupacion.imagen}}">
 		    </div>
 		</div>

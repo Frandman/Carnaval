@@ -3,6 +3,10 @@
 	font-weight: 100;
 }
 
+.content {
+	overflow: hidden;
+}
+
 .header-title {
 	text-align: center;
 }
@@ -16,8 +20,9 @@
 	display: none;
 }
 .ham-line {
-	border-top: 2px solid red;
-	margin-top: 2px;
+	border-top: 4px solid red;
+	margin-top: 4px;
+	border-radius: 10px;
 	width: 20px;
 }
 .row {
@@ -131,11 +136,12 @@ h1, h2 {
 }
 
 .agrupacion {
-	padding-left: 10px;
+	margin-top: 10px;
+	overflow: hidden;
 }
 
 @media (max-width: 700px) {
-		.fechas, .agrupacion, .evento, h2, .fecha-name {
+		.fechas, .agrupacion, .evento, h2, .fecha-name, .agrupacion-text {
 		text-align: center;
 	}
 
