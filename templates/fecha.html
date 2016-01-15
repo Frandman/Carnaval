@@ -3,9 +3,17 @@
     <h2>Fechas</h2>
 	<ul class="list-group" ng-repeat = "fecha in fechas">
 		<li class="list-group-item fechas">
-			<div><strong>{{fecha.name}}</strong></div>
-			<div>Lugar: {{fecha.lugar}}</div>
-			<div>Fecha: {{fecha.fecha.getDate()+' - '+fecha.fecha.getMonth()}}</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<div style="margin-bottom:15px;font-size:20px;" class="fecha-name"><strong>{{fecha.name}}</strong></div>
+					<div><strong>Lugar: </strong>{{fecha.lugar}}</div>
+					<div><strong>Fecha: </strong>{{fecha.fecha}}</div>
+					<div style="margin-top:10px;" class="fecha-description">Descripción: {{fecha.description}}</div>
+				</div>
+				<div class="img-container col-md-8 col-xs-12">
+					<img class="img-responsive img-fecha" ng-src="{{fecha.imagen}}">
+				</div>
+			</div>
 		</li>
 	</ul>
 </div> <!-- col-xs-4 -->

@@ -1,10 +1,15 @@
 <div class="col-sm-12">
     <h2>Agrupaciones</h2>
-	<ul class="list-group" ng-repeat = "agrupacion in agrupaciones">
-		<li class="list-group-item agrupaciones">
-			<div><strong>{{agrupacion.name}}</strong></div>
-			<div>Música: {{agrupacion.musica}}</div>
-			<div>Letra: {{agrupacion.letra}}</div>
-		</li>
-	</ul>
+	<div class="col-sm-6 list-group-item agrupacion" ng-repeat = "agrupacion in agrupaciones">
+		<div clas="row">
+			<div class="col-xs-4">
+				<div><strong>{{agrupacion.name}}</strong></div>
+				<div>Música: {{agrupacion.musica}}</div>
+				<div>Letra: {{agrupacion.letra}}</div>
+			</div>
+			<div class="img-container col-xs-8">
+			    <img class="img-responsive img-agrupacion" ng-src="{{agrupacion.imagen}}">
+		    </div>
+		</div>
+    </div>
 </div> <!-- col-xs-4 -->

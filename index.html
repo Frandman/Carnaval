@@ -42,26 +42,26 @@
         </div>
         <div class="container content" ng-class="{'content-expand':collapsed }">
             <div class="row publi">
-                <img class="img-responsive" src="http://www.doctor-phone.es/img/logo.png">
+                <img id="logo" class="img-responsive" src="http://www.doctor-phone.es/img/logo.png">
             </div>
 	    	<h1 class="header-title jumbotron">CARNAVAL DE UBRIQUE</h1>
             <div class="ham row" ng-click="collapse()">
                     <div class="ham-line"></div>
                     <div class="ham-line"></div>
                     <div class="ham-line"></div>
-            </div>
+            </div><!-- hamburguer menu -->
 	    	<div class="row">
 			    <fechas ng-show="active=='fechas' || active == 'home' "></fechas>
-			    <agrupaciones ng-show="active=='agrupaciones' || active == 'home' "></agrupaciones>
+    			    <agrupaciones ng-show="active=='agrupaciones' || active == 'home' "></agrupaciones>
 			    <eventos ng-show="active=='eventos' || active == 'home' "></eventos>
-			</div> <!-- row -->
+            </div>
             <div class="row lugares" ng-show="active== 'mapa' || active == 'home' ">
 		       <h2>Lugares</h2>
             </div>
     		<div class="row" ng-show="active== 'mapa' || active == 'home' ">
     		    <div class="col-xs-10 col-xs-offset-1">
     			    <div id="map"></div>
-    		  </div> <!-- row -->
+    		    </div> <!-- row -->
             </div> <!-- row lugares -->
             <div class="panel-footer">
                 @franjlopez
