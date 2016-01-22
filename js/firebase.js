@@ -12,7 +12,7 @@ var agrupacionesRef = myDataRef.child('agrupaciones');
 	    letra: 'Juan Mancilla',
 	    anterior:'Borreguito como tú',
 	    imagen: 'http://2.bp.blogspot.com/-skMFnbOrh2Q/VQnwK6xwUwI/AAAAAAAAA-U/gg-Ohq6LatQ/s1600/P2134890.JPG',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+	    description:'La tortillá es la celebración que da el pistoletazo de salida al carnaval ubriqueño. Las agrupaciones cantan en la AAVV Bda. Antonio Vega, que celebra desde hace años la jamoná, para a continuación dejarse caer por el algarrobal para ofrecer de nuevo sus primeros cuplés y pasodobles.'
         },
 
     {
@@ -190,87 +190,80 @@ agrupacionesRef.set(agrupaciones);
 
     eventosRef.set(eventos);
 
-/* function fireInit(){
 	fechas = [
 
     {
         name: 'Tortillá',
-        fecha: new Date("March 6, 2014"),
-        lugar: 'AAVV Bda. Antonio Vega',
-        imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-        description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+        fecha: "6 de febrero",
+        lugar: 'Algarrobal',
+        imagen: 'http://www.ubrique.tv/wp-content/uploads/ojiplaticos-en-la-tortilla-2014.jpg',
+        description:'La tortillá es la celebración que da el pistoletazo de salida al carnaval ubriqueño. Las agrupaciones cantan en la AAVV Bda. Antonio Vega, que celebra desde hace años la jamoná, para a continuación dejarse caer por el algarrobal para ofrecer de nuevo sus primeros cuplés y pasodobles.'
         },
     {
 	    name: 'Presentación oficial agrupaciones',
-	    fecha: new Date("March 13, 2014"),
-	    lugar: 'CEIP Francisco Fatou',
-	    imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+	    fecha: "13 de febrero",
+	    lugar: 'IES Francisco Fatou',
+	    imagen: 'http://www.ubrique.tv/wp-content/uploads/presentacion-de-la-chirigota-la.jpg',
+	    description:'La sala multiusos del IES Francisco Fatou sirve de escenario para la presentación ofical de las agrupaciones del carnaval de Ubrique. Una gala que todo los años agota rápidamente todas las localidades y que se retransmite a través de Radio Ubrique.'
+         },
+    {
+	    name: 'Chicharroná',
+	    fecha: "13 de febrero",
+	    lugar: 'Barriada Andalucía',
+	    imagen: '',
+	    description:''
+         },
+    {
+	    name: 'Costillá',
+	    fecha: "14 de febrero",
+	    lugar: '',
+	    imagen: '',
+	    description:''
+         },
+    {
+	    name: 'Pase Benéfico',
+	    fecha: "19 de febrero",
+	    lugar: 'IES Francisco Fatou',
+	    imagen: '',
+	    description:''
          },
     {
 	    name: 'Chorizá',
-	    fecha: new Date("March 20, 2014"),
+	    fecha: "20 de febrero",
 	    lugar: 'Casco Antiguo',
 	    imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+	    description:'El día GRANDE con mayúsculas del carnaval ubriqueño. La Chorizá se abre con el pregón en la plaza del ayuntamiento, momento a partir del cual podremos disfrutar del chorizo al vino y el cante de las agrupaciones, legales o "ilegales", por los lugares más emblemáticos del carnaval.'
+         },
+    {
+	    name: 'Concurso Peña Sevillista',
+	    fecha: "26 de febrero",
+	    lugar: 'Peña Sevillista de Ubrique',
+	    imagen: '',
+	    description:''
+         },
+    {
+	    name: 'Actuación Fernando Gavilán',
+	    fecha: "26 de febrero",
+	    lugar: 'Peña Sevillista de Ubrique',
+	    imagen: '',
+	    description:''
          },
 	{
 	    name: 'Pasacalles',
-	    fecha: new Date("March 13, 2014"),
-	    lugar: 'Casco Antiguo',
-	    imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+	    fecha: "27 de febrero",
+	    lugar: 'Plaza de la estrella',
+	    imagen: 'http://i.ytimg.com/vi/q0tnArqU1LM/maxresdefault.jpg',
+	    description:'La gran fiesta del carnaval. Durante el pasacalles, todos los caravaleros hace un recorrido desde la plaza de la estrella hasta la plaza del ayuntamiento en una fiesta de disfraces y música.'
          },
+
     {
         name: 'Entierro de la patacabra',
-        fecha: new Date("March 13, 2014 11:13:00"),
-        lugar: 'Casco Antiguo',
-        imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-        description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+        fecha: "28 de febrero",
+        lugar: 'Plaza de las palmeras',
+        imagen: 'http://www.elperiodicodeubrique.com/wp-content/uploads/2014/03/20140309-patacabra01.jpg',
+        description:'El día de la despedida, donde enterramos nuestra particular sardina en forma de patacabra.'
         }
 	];
 
 	fechasRef.set(fechas);
 
-	eventos = [
-
-	    {
-	    grupo: 'Los explotadores',
-	    fecha: new Date("Enero 6, 2016 11:13:00"),
-	    lugar: 'Casco Antiguo',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
-         },
-
-	    {
-	    grupo: 'Lo de Maza',
-	    fecha: new Date("Enero 6, 2016 11:13:00"),
-	    lugar: 'Casco Antiguo',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
-            }
-    ];
-
-    eventosRef.set(eventos);
-
-	agrupaciones = [
-
-	{
-	    name: 'Los explotadores',
-	    musica: 'Juan Mancilla',
-	    letra: 'Juan Mancilla',
-	    anterior:'Borreguito como tú',
-	    imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
-        },
-
-    {
-	    name: 'Las niñas de la Beli',
-	    musica: 'Daniel Menacho',
-	    letra: 'Daniel Menacho',
-	    anterior:'no participó',
-	    imagen: 'http://2.bp.blogspot.com/-7uza0MPRW54/UxNDzMQgWuI/AAAAAAAARuE/Rnbnjn_S7MQ/s1600/2014-03-02_154157.png',
-	    description:'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
-        },
-    ];
-
-    agrupacionesRef.set(agrupaciones);
-} */
