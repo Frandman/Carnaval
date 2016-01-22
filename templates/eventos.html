@@ -1,10 +1,11 @@
 <div class="col-sm-12">
-    <h2>Eventos</h2>
+    <h2>Actuaciones</h2>
 	<div class="list-group col-sm-3 col-xs-12" ng-repeat = "evento in eventos">
 		<div class="list-group-item evento">
-			<div><strong>{{evento.grupo}}</strong></div>
+			<div style="text-align:center;"><strong>{{evento.grupo}}</strong></div>
 			<div>Lugar: {{evento.lugar}}</div>
             <div>Fecha: {{evento.fecha}}</div>
+            <div>Hora: {{evento.hora}}</div>
 		</div>
 	</div>
 	<!-- <form class="list-group-item" ng-submit="addEvento">

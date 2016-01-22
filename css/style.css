@@ -196,6 +196,7 @@ h1, h2 {
 
     .evento, .agrupacion-text {
     	font-size: 12px;
+    	text-align: center;
     }
 }
 
